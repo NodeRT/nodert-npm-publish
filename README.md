@@ -1,6 +1,6 @@
 # nodert-npm-publish
 
-Helper scripts used for publishing the nodert modules to NPM under different users/scopes.
+Helper scripts used for publishing the <a href="https://github.com/NodeRT/NodeRT">NodeRT</a> modules to NPM under different users/scopes.
 
 ### Usage
 
@@ -31,7 +31,7 @@ First create the modules by running NodeRT cmd line with the appropriate paramet
 For example, the following command will generate all of the modules in the windows.winmd file to the directory c:\nodert_modules with the scope "nodert-scope" and the version "0.2.0":
 
 ```
-NodeRTCmd.exe --winmd "%ProgramFiles(x86)%\Windows Kits\10\UnionMetadata\Windows.winmd" --npmscope "nodert-scope" --npmversion 0.1.7 --nobuild --outdir c:\nodert_modules
+NodeRTCmd.exe --winmd "%ProgramFiles(x86)%\Windows Kits\10\UnionMetadata\Windows.winmd" --npmscope "nodert-scope" --npmversion 0.2.0 --nobuild --outdir c:\nodert_modules
 ```
 
 After generating the modules, publish the modules using nodert_publish.js script in this repo.
