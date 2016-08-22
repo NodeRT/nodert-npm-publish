@@ -1,0 +1,32 @@
+{
+  "name": "nodert-npm-publish",
+  "version": "0.1.0",
+  "description": "Publish NodeRT modules to NPM using scopes",
+  "main": "./nodert_wrapper.js",
+  "scripts": {
+    "install": ""
+  },
+  "bin": {
+    "nodert": "./nodert_cmd.js"
+  },
+  "keywords": [
+    "NodeRT",
+    "WinRT",
+    "UWP",
+    "Microsoft",
+    "Windows"
+  ],
+  "dependencies": {
+    "async": "^2.0.1",
+    "npm": "^3.10.6",
+    "yargs": "^5.0.0"
+  },
+  "optionalDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/NodeRT/nodert-npm-publish.git"
+  },
+  "homepage": "https://github.com/NodeRT/nodert-npm-publish",
+  "author": "nadavbar <nadavbar@gmail.com> (http://www.nadavos.com)",
+  "license": "Apache-2.0"
+}
